@@ -7,8 +7,10 @@
     tools:context=".activity.MainActivity">
 
     <Button
+        android:layout_marginHorizontal="50dp"
+        android:background="@drawable/custom_button"
         android:id="@+id/btnManageStudent"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="144dp"
         android:text="Quản lý sinh viên"
@@ -17,8 +19,10 @@
         app:layout_constraintTop_toBottomOf="@+id/btnInsertClass" />
 
     <Button
+        android:layout_marginHorizontal="50dp"
+        android:background="@drawable/custom_button"
         android:id="@+id/btnShowClass"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
         android:text="Xem danh sách Lớp"
@@ -28,8 +32,10 @@
         app:layout_constraintTop_toBottomOf="@+id/btnInsertClass" />
 
     <Button
+        android:layout_marginHorizontal="50dp"
+        android:background="@drawable/custom_button"
         android:id="@+id/btnInsertClass"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
         android:text="Thêm Lớp"

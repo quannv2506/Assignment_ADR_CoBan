@@ -7,6 +7,7 @@
     tools:context=".activity.StudentActivity">
 
     <TextView
+        android:textColor="#000"
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -20,6 +21,7 @@
         app:layout_constraintVertical_bias="0.229" />
 
     <TextView
+        android:textColor="#000"
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -37,6 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Lớp"
+        android:textColor="#000"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -87,6 +90,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Thêm Sinh viên"
+        android:layout_marginHorizontal="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -110,7 +114,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="DANH SÁCH SINH VIÊN"
-        android:textColor="#000"
+        android:textColor="#CC0000"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

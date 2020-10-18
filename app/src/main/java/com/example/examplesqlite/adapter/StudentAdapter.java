@@ -2,6 +2,7 @@ package com.example.examplesqlite.adapter;
 
 import android.app.AlertDialog;
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -61,6 +62,10 @@ public class StudentAdapter extends BaseAdapter {
         tvStt.setText(position + 1 + "");
         tvTen.setText(student.getTenSv());
         tvNgaySinh.setText(student.getNgaySinh());
+
+        if ((position + 1) % 2 == 1){
+            view.setBackgroundColor(Color.parseColor("#66CCCC"));
+        }
 
         imgDelete.setOnClickListener(new View.OnClickListener() {
             @Override

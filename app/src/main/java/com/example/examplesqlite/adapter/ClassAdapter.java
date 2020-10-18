@@ -3,6 +3,7 @@ package com.example.examplesqlite.adapter;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -59,6 +60,10 @@ public class ClassAdapter extends BaseAdapter {
         tvStt.setText(i + 1 + "");
         tvMaLop.setText(mMyClass.getMaLop());
         tvTenLop.setText(mMyClass.getTenLop());
+
+        if ((i + 1) % 2 == 1){
+            view.setBackgroundColor(Color.parseColor("#66CCCC"));
+        }
 
         view.setOnClickListener(new View.OnClickListener() {
             @Override
